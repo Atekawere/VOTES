@@ -1,5 +1,10 @@
 export class Quote {
-    public quote:string;
-    public name:string;
-    public auther:string;
+    viewDetails: boolean;
+    constructor(
+    public quote:string,
+    public name:string,
+    public auther:string,
+    ){
+        this.viewDetails = false;
+      }
 }
