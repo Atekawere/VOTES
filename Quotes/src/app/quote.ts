@@ -1,10 +1,10 @@
 export class Quote {
-    viewDetails: boolean;
+    showDescription: boolean;
     constructor(
-    public quote:string,
     public name:string,
-    public auther:string,
+    public quote:string,
+    public author:string,
     ){
-        this.viewDetails = false;
+        this.showDescription = false;
       }
 }

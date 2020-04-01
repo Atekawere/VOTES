@@ -17,7 +17,7 @@ export class QuoteComponent implements OnInit {
     new Quote(
     "Hadren",
     "Find a job you enjoy doing and you will never have to work a day.",
-    "Joab",
+    "Hadren",
     ),
   ];
 
@@ -30,7 +30,6 @@ export class QuoteComponent implements OnInit {
     this.quotes.splice(index,1);
 
   }
-
   constructor() { }
 
   ngOnInit() {
